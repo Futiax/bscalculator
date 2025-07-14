@@ -1,0 +1,119 @@
+@font-face {
+    font-family: EntezareZohoor2;
+    src: url(Entezar2.ttf) format("truetype");
+}
+.EntezarFont {
+    font-family: EntezareZohoor2, B Nazanin, Tahoma !important;
+}
+h1 {
+  color: #7e8c9f;
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.stuff {
+  padding: 50px 50px 50px;
+  position: relative;
+  margin: auto;
+}
+
+.tag {
+  background: #434d5a;
+  color: #919191;
+  padding: 0px 10px;
+  border-radius: 0px;
+  font-size: 25px;
+  font-weight: 100;
+  margin: 0px 0px 10px 0px;
+}
+
+.container {
+  background-color: #434d5a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #161b20;
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+
+.slider-container {
+  background-color: #434d5a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #2c333b;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  position: relative;
+  height: 175px;
+  /* Ajustez selon la hauteur de vos sliders */
+}
+
+.sub-container {
+  background-color: #434d5a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #2c333b;
+  text-align: center;
+  width: auto;
+  margin: auto;
+  position: relative;
+  height: auto;
+  /* Ajustez selon la hauteur de vos sliders */
+}
+
+button {
+  color: #278a00;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  background: #2c333b;
+}
+
+button:hover {
+  background: #2c333b;
+  color: #278a00;
+}
+
+#responseData {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#result {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #322c3b;
+}
+
+#flat-slider-vertical-1 {
+  position: absolute;
+  left: -4%;
+}
+
+#flat-slider-vertical-2 {
+  position: absolute;
+  left: 21%;
+}
+
+#flat-slider-vertical-3 {
+  position: absolute;
+  left: 46%;
+}
+
+#flat-slider-vertical-4 {
+  position: absolute;
+  left: 71%;
+}

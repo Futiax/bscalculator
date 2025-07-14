@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>BS gold calculator</title>
+  <link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+<link rel="stylesheet" href="https://simeydotme.github.io/jQuery-ui-Slider-Pips/dist/css/jqueryui.min.css">
+<link rel="stylesheet" href="https://simeydotme.github.io/jQuery-ui-Slider-Pips/dist/css/jquery-ui-slider-pips.min.css">
+<link rel="stylesheet" href="https://simeydotme.github.io/jQuery-ui-Slider-Pips/dist/css/app.min.css">
+<link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./slider.css">
+
+</head>
+  <body>
+    <div class="stuff">
+      <div class="container">
+        <h1>BRAWL STAR GOLD CALCULATOR</h1>
+        <input class="tag" type="text" id="playerTag" placeholder="ENTER PLAYER TAG" value="YUYP2V22V" > <!-- YUYP2V22V is an empty account i made -->
+        <div class="slider-container">
+          <div id="flat-slider-vertical-1"></div>
+          <div id="flat-slider-vertical-2"></div>
+          <div id="flat-slider-vertical-3"></div>
+          <div id="flat-slider-vertical-4"></div>
+        </div>
+        <button id="PlayerButton" onclick="calculatePlayerGold(document.getElementById('playerTag').value.replace('#', ''),true)">Calculer l'or nécessaire</button>
+        <button id="ClubRanking" onclick="CalculateClubRanking(document.getElementById('playerTag').value.replace('#', ''))">Calculer le classement de votre club</button>
+        <div class="sub-container">
+          <pre id="result"></pre>
+        </div>
+      </div>
+    </div>
+    <script src="https://simeydotme.github.io/jQuery-ui-Slider-Pips/dist/js/jquery-plus-ui.min.js"></script>
+    <script src="https://simeydotme.github.io/jQuery-ui-Slider-Pips/dist/js/jquery-ui-slider-pips.js"></script>
+    <script src="./script.js"></script><script src="./slider.js"></script>
+  </body>
+</html>
