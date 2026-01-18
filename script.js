@@ -1,4 +1,4 @@
-let maindomain = "https://bs.futiax.ovh"; //replace with your own domain
+let maindomain = "https://bs.futiax.ovh:8182"; //replace with your own domain
 async function CalculateClubRanking(playerTag) {
   try {
     const goldformax = await calculatePlayerGold("#YUYP2V22V", false);
